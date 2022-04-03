@@ -1,0 +1,10 @@
+# author: @itsecurityco
+version: '3'
+
+services:
+  app:
+    container_name: spring-boot
+    build: .
+    image: cve-2022-22965
+    ports:
+      - 8080:8080
